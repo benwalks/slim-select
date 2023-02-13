@@ -21,9 +21,9 @@
   ],
   "exports": {
     ".": {
-      "main": "./dist/slimselect.umd.js",
+      "main": "./dist/slimselect.cjs.js",
       "browser": "./dist/slimselect.js",
-      "import": "./dist/slimselect.js",
+      "import": "./dist/slimselect.cjs.js",
       "module": "./dist/slimselect.js",
       "umd": "./dist/slimselect.umd.js"
     }
