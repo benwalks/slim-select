@@ -19,6 +19,15 @@
   "workspaces": [
     "src/vue"
   ],
+  "exports": {
+    ".": {
+      "main": "./dist/slimselect.umd.js",
+      "browser": "./dist/slimselect.js",
+      "import": "./dist/slimselect.js",
+      "module": "./dist/slimselect.js",
+      "umd": "./dist/slimselect.umd.js"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brianvoe/slim-select.git"
